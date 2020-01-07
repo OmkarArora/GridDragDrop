@@ -1,0 +1,48 @@
+.topHeading {
+  border: 1px solid black;
+  border-width: thick;
+  text-align: center;
+  margin: 0px auto;
+  width: 400px;
+  padding: 10px 10px 10px 10px;
+  font-weight: bolder;
+  font-size: larger;
+}
+.scrollBar {
+  height: 700px;
+  width: 300px;
+  border: solid 1px black;
+  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  float: left;
+  margin-top: 20px;
+}
+
+.grid-item {
+  border: 1px solid black;
+  text-align: center;
+  display: inline-block;
+  width: 10%;
+  height: 70px;
+  margin-left: 20px;
+  margin-top: 20px;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+.username {
+  width: 80%;
+  height: 8%;
+  margin: auto;
+  margin-top: 10px;
+  border: 1px solid #5c1156;
+  border-radius: 15px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
